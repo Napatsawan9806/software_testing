@@ -5,3 +5,5 @@ def FizzBuzz(x: int):
         return "Buzz"
     elif x % 5 == 0:
         return "Fizz"
+    else:
+        return "Not match"
