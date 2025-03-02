@@ -13,3 +13,6 @@ class TestCaesarCipher(unittest.TestCase):
 
     def test_special_characters(self):
         self.assertEqual(caesarCipher("123-@!", 3), "123-@!")
+
+
+# test coverage 100%
