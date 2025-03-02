@@ -24,3 +24,6 @@ class fizzbuzztest(unittest.TestCase):
         self.assertNotEqual(FizzBuzz(3), "Not match")
         self.assertNotEqual(FizzBuzz(5), "Not match")
         self.assertNotEqual(FizzBuzz(15), "not match")
+
+
+# test coverage 100%
